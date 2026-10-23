@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Olivia Rodrigo and SOUR, song by song</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#ece3fa; --surface:#f8f3ff; --ink:#2a1640; --muted:#5d4a78;
+  --accent:#7b3fe4; --pop:#c8f04c; --line:#cdbde8;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#170c26; --surface:#241238; --ink:#f3eaff; --muted:#b9a5d6;
+    --accent:#b48cff; --pop:#c8f04c; --line:#3d2760; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#170c26; --surface:#241238; --ink:#f3eaff; --muted:#b9a5d6;
+  --accent:#b48cff; --pop:#c8f04c; --line:#3d2760; color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Bricolage Grotesque",system-ui,-apple-system,"Segoe UI",sans-serif;
+  line-height:1.6;font-size:17px}
+main{max-width:720px;margin:0 auto;padding:0 20px 56px}
+.hero{padding:44px 0 28px;position:relative}
+.hero .by{margin:0;color:var(--muted);font-weight:600}
+.hero h1{margin:4px 0 0;font-weight:800;font-size:clamp(5.5rem,34vw,12rem);
+  line-height:.82;letter-spacing:-.06em;color:var(--accent);
+  transform:rotate(-3deg);transform-origin:left bottom}
+.sticker{display:inline-block;margin-top:18px;padding:7px 14px;background:var(--pop);
+  color:#1d2a00;font-weight:800;border-radius:999px;transform:rotate(2deg);font-size:.95rem}
+.lede{font-size:1.2rem;max-width:34em;margin:22px 0 0}
+h2{font-size:1.7rem;letter-spacing:-.02em;margin:48px 0 12px;line-height:1.15}
+.about p{margin:0 0 14px;max-width:38em}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0 0;padding:0;list-style:none}
+.facts li{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-size:.95rem}
+.facts b{display:block;font-size:1.25rem;color:var(--accent);line-height:1.2}
+.tracks{margin:0;padding:0;list-style:none;border-top:2px solid var(--ink)}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;align-items:baseline;gap:14px;padding:16px 4px;
+  font-size:1.3rem;font-weight:800;letter-spacing:-.02em}
+summary::-webkit-details-marker{display:none}
+summary .n{min-width:1.6em;color:var(--accent);font-weight:600;font-size:1rem}
+summary .t{flex:1}
+summary::after{content:"+";font-weight:400;font-size:1.5rem;color:var(--muted);transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:6px}
+.body{padding:0 4px 20px 44px}
+.body p{margin:0 0 10px}
+.tag{display:inline-block;background:var(--surface);border:1px solid var(--line);
+  border-radius:999px;padding:2px 12px;font-size:.85rem;color:var(--muted)}
+.note{margin-top:40px;padding:16px 18px;background:var(--surface);border-left:5px solid var(--accent);
+  border-radius:8px;color:var(--muted);font-size:.95rem}
+footer{margin-top:36px;color:var(--muted);font-size:.9rem}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <p class="by">Olivia Rodrigo’s debut album</p>
+    <h1>sour</h1>
+    <span class="sticker">11 songs · May 21, 2021</span>
+    <p class="lede">A guide to the artist and the record that made her a pop star, one song at a time.</p>
+  </header>
+
+  <section class="about" aria-labelledby="who">
+    <h2 id="who">Who is Olivia Rodrigo?</h2>
+    <p>Olivia Rodrigo is an American singer-songwriter who grew up in Temecula, California. Before music took over, she was known as an actor on Disney Channel’s <i>Bizaardvark</i> and later as Nini in <i>High School Musical: The Musical: The Series</i>.</p>
+    <p>In January 2021 she released “drivers license,” a piano ballad about a painful breakup. It debuted at No. 1 on the Billboard Hot 100 and turned her into a global name almost overnight. Her debut album, <i>SOUR</i>, followed that May, with Dan Nigro producing most of it.</p>
+    <p>At the 2022 Grammys she won Best New Artist, Best Pop Vocal Album and Best Pop Solo Performance.</p>
+    <ul class="facts">
+      <li><b>2003</b>Born February 20</li>
+      <li><b>3 Grammys</b>Won in 2022</li>
+      <li><b>Dan Nigro</b>Main producer</li>
+      <li><b>Geffen</b>Record label</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="songs">
+    <h2 id="songs">The songs on SOUR</h2>
+    <p style="margin:0 0 16px;color:var(--muted)">Tap a song to read about it. These are my own summaries, not lyrics.</p>
+    <div class="tracks">
+
+      <details><summary><span class="n">1</span><span class="t">brutal</span></summary>
+        <div class="body"><p><span class="tag">Pop-punk opener</span></p>
+        <p>The album starts with a loud, anxious rant about the pressure of being a teenager who feels like she’s supposed to have life figured out. It sets the tone: funny, dramatic and very honest.</p></div></details>
+
+      <details><summary><span class="n">2</span><span class="t">traitor</span></summary>
+        <div class="body"><p><span class="tag">Slow, accusing ballad</span></p>
+        <p>A quieter song aimed at an ex who moved on too fast. Instead of screaming, she sounds calm and hurt, which makes the accusation land harder.</p></div></details>
+
+      <details><summary><span class="n">3</span><span class="t">drivers license</span></summary>
+        <div class="body"><p><span class="tag">The breakout hit</span></p>
+        <p>Released in January 2021, this piano ballad is built around a simple image: finally getting a license and having no one to share it with. It debuted at No. 1 on the Hot 100 and earned her a Grammy for Best Pop Solo Performance.</p></div></details>
+
+      <details><summary><span class="n">4</span><span class="t">1 step forward, 3 steps back</span></summary>
+        <div class="body"><p><span class="tag">Soft and confused</span></p>
+        <p>She describes a relationship where every bit of progress gets undone. The song borrows from Taylor Swift’s “New Year’s Day,” so Swift and Jack Antonoff are credited as writers.</p></div></details>
+
+      <details><summary><span class="n">5</span><span class="t">deja vu</span></summary>
+        <div class="body"><p><span class="tag">Dreamy synth-pop</span></p>
+        <p>She imagines her ex repeating their old rituals with someone new, from the car rides to the little inside jokes. The bridge nods to Taylor Swift’s “Cruel Summer,” which is why Swift and Antonoff are credited here too.</p></div></details>
+
+      <details><summary><span class="n">6</span><span class="t">good 4 u</span></summary>
+        <div class="body"><p><span class="tag">Pop-punk blast</span></p>
+        <p>Her angriest and most fun song: a sarcastic reaction to an ex who seems totally fine after the breakup. Its guitar energy reminded many listeners of Paramore, and Hayley Williams and Josh Farro received writing credits.</p></div></details>
+
+      <details><summary><span class="n">7</span><span class="t">enough for you</span></summary>
+        <div class="body"><p><span class="tag">Quiet regret</span></p>
+        <p>A sad look back at changing herself to please someone who never appreciated it. It’s one of the album’s most vulnerable songs.</p></div></details>
+
+      <details><summary><span class="n">8</span><span class="t">happier</span></summary>
+        <div class="body"><p><span class="tag">Bittersweet goodbye</span></p>
+        <p>She says she wants her ex to be okay, then admits she can’t stand the thought of them being happier with someone else. That honest, slightly selfish feeling is exactly what makes it relatable.</p></div></details>
+
+      <details><summary><span class="n">9</span><span class="t">jealousy, jealousy</span></summary>
+        <div class="body"><p><span class="tag">Social media spiral</span></p>
+        <p>This one is about comparing yourself to other people online and feeling smaller for it. It stands out because it’s less about a breakup and more about self-esteem.</p></div></details>
+
+      <details><summary><span class="n">10</span><span class="t">favorite crime</span></summary>
+        <div class="body"><p><span class="tag">Gentle and wistful</span></p>
+        <p>A soft song that looks back at a relationship with fondness and guilt, treating the whole thing like a crime she can’t stop thinking about.</p></div></details>
+
+      <details><summary><span class="n">11</span><span class="t">hope ur ok</span></summary>
+        <div class="body"><p><span class="tag">Tender closer</span></p>
+        <p>The finale turns away from romance and toward friends and people from her past who didn’t get the care they needed. It ends the album on kindness instead of anger.</p></div></details>
+
+    </div>
+  </section>
+
+  <p class="note">Want more? Her second album, <i>GUTS</i>, came out in 2023, and her third, <i>You seem pretty sad for a girl so in love</i>, arrived in June 2026.</p>
+  <footer>An unofficial fan page. Song descriptions are original summaries, with no lyrics reproduced.</footer>
+</main>
+</body>
+</html>
